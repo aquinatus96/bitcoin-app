@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Kurs BitCoin</title>
+
+    <!-- FontAwesome cdn style -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:500,700&amp;subset=latin-ext" rel="stylesheet">
+
+    <!-- Main styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+
+        <div class="header">
+            <div class="header-wrapper">
+                <div id="interval-btn" class="header-btn interval-disabled">5 sek</div>
+                <div id="live-btn" class="header-btn live-active">live</div>
+            </div>
+        </div>
+
+
+        <div class="exchange-box">
+            <div class="price-box">
+                <h3>Kupno</h3>
+                <p><span id="buy-price"></span> PLN</p>
+                <div id="buy-percent" class="percent-item"></div>
+            </div>
+        </div>
+
+
+        <div class="exchange-box">
+            <div class="price-box">
+                <h3>Sprzedaż</h3>
+                <p><span id="sell-price"></span> PLN</p>
+                <div id="sell-percent" class="percent-item"></div>
+            </div>
+        </div>
+
+        <div id="timer">22:40 / 1.01.2018</div>
+
+    </div>
+    
+    <div class="copyright">Created by:<br><span>Tomasz Kumięga</span></div>
+
+
+    <!-- jQuery script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Main scripts -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

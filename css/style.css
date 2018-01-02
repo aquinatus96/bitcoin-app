@@ -1,0 +1,241 @@
+/*
+
+#231e3b - main color
+#301a83 - second color
+#00ba00 - green
+#f99100 - orange
+#ff0018 - red
+#f3f4f5 - whte
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;
+
+*/
+
+/* General styles - start */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #110f1a;
+    color: #f3f4f5;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #2b2d5d;
+    text-transform: uppercase;
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 450px;
+    height: 675px;
+    background-color: #f3f4f5;
+    -webkit-box-shadow: 0px 0px 350px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 350px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 350px 0px rgba(0, 0, 0, 0.75);
+}
+
+/* General styles - end */
+
+/* Main header styles - start */
+
+.header {
+    height: 192px;
+    width: 450px;
+    margin-bottom: 50px;
+    background-image: radial-gradient(circle at center, rgba(48, 26, 131, 0.9) 20%, rgba(35, 30, 59, 0.9) 100%), url(../img/1217.sdt-news.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    z-index: -2;
+}
+
+.header-wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    max-width: 425px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.header-btn {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 0.8em;
+    float: right;
+    width: 74px;
+    height: 28px;
+    border-radius: 2.5px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-left: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.live-disabled {
+    color: #f99100;
+    border: 2px #f99100 solid;
+    transition: all .4s ease-in-out;
+}
+
+.interval-disabled {
+    color: #f3f4f5;
+    border: 2px #f3f4f5 solid;
+    transition: all .4s ease-in-out;
+}
+
+.interval-active,
+.live-active {
+    border: 2px #f3f4f5 solid;
+    color: #f99100;
+    background-color: #f3f4f5;
+    opacity: 1;
+    transition: all .4s ease-in-out;
+}
+
+.live-active::before {
+    content: '';
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    line-height: 28px;
+    margin-right: 6px;
+    margin-bottom: 1px;
+    border-radius: 50%;
+    background-color: #f99100;
+    animation-name: pulse;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+    transition: all .4s ease-in;
+}
+
+/* Main header styles - end */
+
+/* Exchange boxes styles - start */
+
+.exchange-box {
+    text-align: center;
+    margin-bottom: 20px;
+    transition: all .3s linear;
+}
+
+.exchange-box::after {
+    content: "";
+    display: inline-block;
+    text-align: center;
+    width: 85%;
+    height: 1px;
+    background-color: #bda7f9;
+}
+
+.exchange-box h3 {
+    display: inline-block;
+    width: 171px;
+    height: 27.5px;
+    line-height: 27.5px;
+    border-radius: 25px;
+    font-weight: 500;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 0.8em;
+    letter-spacing: 0.5px;
+    background-color: #301a83;
+    color: #f3f4f5;
+    margin: 20px;
+}
+
+.exchange-box span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.2em;
+    font-weight: 800;
+    letter-spacing: 7.5px;
+    color: #231e3b;
+}
+
+.exchange-box .percent-item {
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    color: #f3f4f5;
+    background-color: #231e3b;
+    border-radius: 50%;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    letter-spacing: 0.5px;
+    position: absolute;
+    transform: translate(-50%, -90%);
+}
+
+.exchange-box .percent-down {
+    font-size: 0.7em;
+    background-color: #ff0018;
+}
+
+.exchange-box .percent-up {
+    font-size: 0.7em;
+    background-color: #00ab00;
+}
+
+/* Exchange boxes styles - end */
+
+/* Timer styles - start */
+
+#timer {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 200px;
+    height: 27.5px;
+    line-height: 23px;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px #301a83 solid;
+}
+
+/* Timer styles - end */
+
+/* COPYRIGHTS */
+
+.copyright {
+    margin-top: 20px;
+    font-size: 12px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    color: #f3f4f5;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.copyright span {
+    letter-spacing: normal;
+    text-transform: none;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+
+
+/* Animation - start */
+
+@keyframes pulse {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale(1.5);
+    }
+}
+
+/* Animation - end */
