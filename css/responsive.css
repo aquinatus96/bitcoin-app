@@ -1,0 +1,275 @@
+@media all and (max-device-width: 1199px) {
+    .container {
+        max-width: 800px;
+        max-height: 1200px;
+    }
+
+    .header {
+        max-width: 800px;
+        height: 300px;
+        margin-bottom: 18%;
+    }
+
+    .header-wrapper {
+        max-width: 800px;
+        margin-top: 125px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .header-btn {
+        width: 170px;
+        height: 66px;
+        line-height: 66px;
+        font-size: 1.4em;
+        margin: 0 20px;
+    }
+
+    .live-active::before {
+        width: 14px;
+        height: 14px;
+    }
+
+    .exchange-box h3 {
+        height: 50px;
+        line-height: 50px;
+        width: 290px;
+        font-size: 1.2em;
+    }
+
+    .exchange-box span {
+        font-size: 4.5em;
+    }
+
+    .exchange-box .percent-item {
+        height: 90px;
+        line-height: 90px;
+        width: 90px;
+        letter-spacing: 0.77px;
+        font-size: 1.1em;
+    }
+
+    #timer {
+        width: 400px;
+        height: 40px;
+        line-height: 40px;
+    }
+}
+
+}
+
+@media all and (max-device-width: 991px) {
+    .container {
+        max-width: 800px;
+        max-height: 1200px;
+    }
+
+    .header {
+        max-width: 800px;
+        height: 300px;
+        margin-bottom: 18%;
+    }
+
+    .header-wrapper {
+        max-width: 800px;
+        margin-top: 125px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .header-btn {
+        width: 170px;
+        height: 66px;
+        line-height: 66px;
+        font-size: 1.4em;
+        margin: 0 20px;
+    }
+
+    .live-active::before {
+        width: 14px;
+        height: 14px;
+    }
+
+    .exchange-box h3 {
+        height: 50px;
+        line-height: 50px;
+        width: 290px;
+        font-size: 1.2em;
+    }
+
+    .exchange-box span {
+        font-size: 4.5em;
+    }
+
+    .exchange-box .percent-item {
+        height: 90px;
+        line-height: 90px;
+        width: 90px;
+        letter-spacing: 0.77px;
+        font-size: 1.1em;
+    }
+
+    #timer {
+        width: 400px;
+        height: 40px;
+        line-height: 40px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .container {
+        max-width: 700px;
+        max-height: 875px;
+    }
+
+    .header {
+        max-width: 700px;
+        height: 200px;
+        margin-bottom: 18%;
+    }
+
+    .header-wrapper {
+        margin-top: 75px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .header-btn {
+        width: 118px;
+        height: 46px;
+        line-height: 46px;
+        font-size: 1.2em;
+        margin: 0 10px;
+    }
+
+    .live-active::before {
+        width: 12px;
+        height: 12px;
+    }
+
+    .exchange-box h3 {
+        height: 35px;
+        line-height: 35px;
+        width: 240px;
+        font-size: 1em;
+    }
+
+    .exchange-box span {
+        font-size: 3em;
+    }
+
+    .exchange-box .percent-item {
+        height: 70px;
+        line-height: 70px;
+        width: 70px;
+        letter-spacing: 0.77px;
+        font-size: 0.8em;
+    }
+}
+
+@media all and (max-width: 575px) {
+    .container {
+        max-height: 800px;
+    }
+
+    .header {
+        max-width: 625px;
+        height: 250px;
+        margin-bottom: 15%;
+    }
+
+    .header-wrapper {
+        margin-top: 90px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .header-btn {
+        width: 118px;
+        height: 41px;
+        line-height: 41px;
+        font-size: 1.2em;
+        margin: 0 10px;
+    }
+
+    .live-active::before {
+        width: 12px;
+        height: 12px;
+    }
+
+    .exchange-box h3 {
+        height: 37px;
+        line-height: 37px;
+        width: 231px;
+        font-size: 1em;
+    }
+
+    .exchange-box span {
+        font-size: 2.75em;
+    }
+
+    .exchange-box .percent-item {
+        height: 60px;
+        line-height: 60px;
+        width: 60px;
+        letter-spacing: 0.77px;
+        font-size: 0.6em;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .container {
+        max-width: 430px;
+        max-height: 700px;
+    }
+
+    .header {
+        max-width: 430px;
+        height: 200px;
+        margin-bottom: 12%;
+    }
+
+    .header-wrapper {
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .header-btn {
+        width: 118px;
+        height: 41px;
+        line-height: 41px;
+        font-size: 1.2em;
+        margin: 0 10px;
+    }
+
+    .live-active::before {
+        width: 10px;
+        height: 10px;
+    }
+
+    .exchange-box h3 {
+        height: 33px;
+        line-height: 33px;
+        width: 208px;
+        font-size: 0.8em;
+    }
+
+    .exchange-box span {
+        font-size: 2.33em;
+        letter-spacing: 0.1em;
+    }
+
+    .exchange-box .percent-item {
+        height: 55px;
+        line-height: 55px;
+        width: 55px;
+        letter-spacing: 0.5px;
+        font-size: 0.66em;
+    }
+}

@@ -35,8 +35,10 @@ body {
     right: 0;
     left: 0;
     margin: auto;
-    width: 450px;
-    height: 675px;
+    width: 80%;
+    height: 100%;
+    max-height: 750px;
+    max-width: 500px;
     background-color: #f3f4f5;
     -webkit-box-shadow: 0px 0px 350px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 350px 0px rgba(0, 0, 0, 0.75);
@@ -49,8 +51,9 @@ body {
 
 .header {
     height: 192px;
-    width: 450px;
-    margin-bottom: 50px;
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 15%;
     background-image: radial-gradient(circle at center, rgba(48, 26, 131, 0.9) 20%, rgba(35, 30, 59, 0.9) 100%), url(../img/1217.sdt-news.jpg);
     background-position: center;
     background-size: cover;
@@ -63,8 +66,7 @@ body {
     margin-left: auto;
     margin-top: 30px;
     max-width: 425px;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding: 0px 5%;
 }
 
 .header-btn {
@@ -126,7 +128,7 @@ body {
 
 .exchange-box {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 6.5%;
     transition: all .3s linear;
 }
 
@@ -194,9 +196,9 @@ body {
 #timer {
     margin: 0 auto;
     margin-top: 50px;
-    width: 200px;
+    width: 250px;
     height: 27.5px;
-    line-height: 23px;
+    line-height: 25px;
     text-align: center;
     border-radius: 20px;
     border: 2px #301a83 solid;
