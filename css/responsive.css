@@ -60,13 +60,13 @@
 @media all and (max-width: 991px) {
     .container {
         max-width: 800px;
-        height: 1000px;
+        height: 900px;
     }
 
     .header {
         max-width: 800px;
         height: 300px;
-        margin-bottom: 18%;
+        margin-bottom: 8%;
     }
 
     .header-wrapper {
@@ -117,14 +117,10 @@
 }
 
 @media all and (max-width: 768px) {
-    .container {
-        max-width: 700px;
-    }
 
     .header {
-        max-width: 700px;
         height: 200px;
-        margin-bottom: 18%;
+        margin-bottom: 10%;
     }
 
     .header-wrapper {
@@ -177,7 +173,7 @@
 @media all and (max-width: 575px) {
     
     .container {
-        height: 700px;
+        height: 650px;
     }
     
     .header {
@@ -235,7 +231,7 @@
 
 @media all and (max-width: 480px) {
     .container {
-        max-width: 430px;
+        max-width: 400px;
         height: 640px;
     }
 
