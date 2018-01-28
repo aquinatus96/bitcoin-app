@@ -232,17 +232,17 @@
 @media all and (max-width: 480px) {
     .container {
         max-width: 400px;
-        height: 640px;
+        height: 600px;
     }
 
     .header {
         max-width: 430px;
-        height: 200px;
+        height: 150px;
         margin-bottom: 12%;
     }
 
     .header-wrapper {
-        margin-top: 80px;
+        margin-top: 55px;
         display: flex;
         justify-content: center;
         align-content: center;
@@ -287,3 +287,63 @@
         line-height: 30px;
     }
 }
+
+@media all and (max-width: 375px) {
+    .container {
+        max-width: 325px;
+        height: 500px;
+    }
+
+    .header {
+        max-width: 430px;
+        height: 100px;
+        margin-bottom: 6%;
+    }
+
+    .header-wrapper {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .header-btn {
+        width: 90px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 0.8em;
+        margin: 0 10px;
+    }
+
+    .live-active::before {
+        width: 8px;
+        height: 8px;
+    }
+
+    .exchange-box h3 {
+        height: 26px;
+        line-height: 26px;
+        width: 178px;
+        font-size: 0.8em;
+    }
+
+    .exchange-box span {
+        font-size: 2em;
+        letter-spacing: 0.1em;
+    }
+
+    .exchange-box .percent-item {
+        height: 55px;
+        line-height: 55px;
+        width: 55px;
+        letter-spacing: 0.5px;
+        font-size: 0.66em;
+    }
+
+    #timer {
+        width: 220px;
+        height: 25px;
+        line-height: 23px;
+    }
+}
+
